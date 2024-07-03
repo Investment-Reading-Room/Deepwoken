@@ -1,4 +1,4 @@
-header {
+footer {
     padding-right: calc(
         env(safe-area-inset-right) + var(--page-padding-horizontal)
     );
@@ -6,7 +6,7 @@ header {
         env(safe-area-inset-left) + var(--page-padding-horizontal)
     );
 
-    margin-top: env(safe-area-inset-top);
+    margin-bottom: env(safe-area-inset-bottom);
 }
 
 .inner {
@@ -19,14 +19,14 @@ header {
     text-decoration: none;
 }
 
+.inner span {
+    color: var(--default-text-color);
+}
+
 .inner svg {
     height: 4rem;
     width: 4rem;
     border-radius: 2rem;
-}
-
-.inner span {
-    color: var(--default-text-color);
 }
 
 .home * {
@@ -44,40 +44,4 @@ header {
 .deepwoken {
     padding-left: 0.4rem;
     font-weight: lighter;
-}
-
-.menu {
-    display: flex;
-    padding-top: 1.2rem;
-}
-
-.menu a {
-    padding-left: 2rem;
-}
-
-.menu a:hover span {
-    opacity: 0.7;
-}
-
-.menu a:hover div {
-    height: 0.4rem;
-    width: 0.4rem;
-    background-color: var(--default-text-color);
-    border-radius: 0.2rem;
-    margin: 0 auto;
-    margin-top: 1rem;
-    animation: fadeIn 1.5s;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.menu span {
-    font-size: 1.6rem;
 }

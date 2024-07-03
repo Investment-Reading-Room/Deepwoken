@@ -1,0 +1,4 @@
+.wrapper {
+	min-height: calc(100rem - var(--footer-height));
+	background-color: white;
+}

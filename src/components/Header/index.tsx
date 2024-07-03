@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import { Logo } from "../Icon";
+import Container from "../Container";
 
 export default function Header() {
     return (
         <header>
-            <div className={styles.header_inner}>
+            <Container>
                 <div className={styles.inner}>
                     <div className={styles.home}>
                         <Link to="/">
@@ -33,7 +34,7 @@ export default function Header() {
                         </Link>
                     </div>
                 </div>
-            </div>
+            </Container>
         </header>
     );
 }
