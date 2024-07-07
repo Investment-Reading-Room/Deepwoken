@@ -1,0 +1,125 @@
+.joinGuild {
+    background-color: #151311;
+    height: 80rem;
+    display: flex;
+    align-items: center;
+}
+
+.joinGuild {
+    color: var(--dark-text-color);
+}
+
+.sendEmail h1 {
+    font-size: 6.5rem;
+    float: left;
+}
+
+.sendEmail > div {
+    padding-top: 25rem;
+    float: right;
+    text-align: right;
+}
+
+.sendEmail > div > div {
+    padding-top: 15rem;
+}
+
+.sendEmail > div > div > span {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    font-weight: lighter;
+}
+
+.sendEmail form > input {
+    width: 50rem;
+    float: left;
+    border-width: 0;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    padding-right: 3.7rem;
+}
+
+.sendEmail form > input::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+
+.sendEmail form > button {
+    font-weight: bold;
+    float: right;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sendEmail hr {
+    margin-top: 3.5rem;
+}
+
+.circle {
+    margin-left: 41rem;
+    position: absolute;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+}
+
+.circle.fadeIn {
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 7s;
+    animation-delay: 1s;
+}
+
+.arrowLine {
+    margin-top: 10rem;
+    margin-left: 62rem;
+    position: absolute;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+}
+
+.arrowLine.fadeIn {
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 8s;
+    animation-delay: 1s;
+}
+
+.arrow {
+    margin-top: 14.8rem;
+    margin-left: 91rem;
+    position: absolute;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+}
+
+.arrow.fadeIn {
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 8s;
+    animation-delay: 2.2s;
+}
+
+/* .circle1 {
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: fadeIn 5s linear forwards reverse;
+} */
+
+@keyframes fadeIn {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        stroke-dashoffset: 3000;
+    }
+}

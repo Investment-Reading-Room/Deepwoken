@@ -1,11 +1,4 @@
 footer {
-    padding-right: calc(
-        env(safe-area-inset-right) + var(--page-padding-horizontal)
-    );
-    padding-left: calc(
-        env(safe-area-inset-left) + var(--page-padding-horizontal)
-    );
-
     margin-bottom: env(safe-area-inset-bottom);
 }
 

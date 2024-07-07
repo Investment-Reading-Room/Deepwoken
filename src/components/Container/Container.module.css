@@ -2,4 +2,11 @@
     width: 100%;
     max-width: 180rem;
     margin: 0 auto;
+
+    padding-right: calc(
+        env(safe-area-inset-right) + var(--page-padding-horizontal)
+    );
+    padding-left: calc(
+        env(safe-area-inset-left) + var(--page-padding-horizontal)
+    );
 }
