@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Container from "../Container";
 import { Arrow, ArrowLine, CirCle1, CirCle2 } from "../Icon/JoinGuild";
 import styles from "./JoinGuild.module.css";
-import useIntersectionObsever from "./hooks/useIntersectionObsever";
+import useIntersectionObsever from "../Footer/hooks/useIntersectionObsever";
 
 export default function JoinGuild() {
     const ref = useRef<HTMLDivElement>(null);

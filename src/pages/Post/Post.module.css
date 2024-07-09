@@ -1,0 +1,15 @@
+.menu2 {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.menu2 h3 {
+    font-size: 12rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	flex-direction: row;
+}

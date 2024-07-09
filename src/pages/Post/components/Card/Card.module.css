@@ -1,0 +1,46 @@
+.card {
+    margin-top: 10rem;
+    width: max-content;
+}
+
+.card div {
+    width: max-content;
+    max-width: 38rem;
+}
+
+.card img {
+    width: 38rem;
+    height: 38rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .card div {
+        max-width: 30rem;
+    }
+
+    .card img {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+.card h3 {
+    padding: 0.8rem;
+    background-color: var(--default-text-color);
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--dark-text-color);
+}
+
+.card h1 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.4em;
+}
+
+.card span {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
